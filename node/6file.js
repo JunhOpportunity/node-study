@@ -40,3 +40,10 @@ fs.appendFile('./file.txt', 'Append New text in file!').catch(console.error); //
 
 // copy
 fs.copyFile('./file.txt', './file2.txt').catch(console.error); // (A, B) : A를 B에 복사
+
+// folder 생성
+fs.mkdir('sub-folder').catch(console.error);
+
+// folder 읽기
+fs.reqaddir('./.').then(console.log).catch(console.error);
+
