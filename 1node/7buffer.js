@@ -20,3 +20,6 @@ const newBuf = Buffer.concat([buf, buf2, buf3]);
 console.log(newBuf.toString());
 
 // stream 다시 공부해보자.. 재밌는데 시간에 쫓겨서 뭔가 급하게 보느라 집중 X. (4.16 다시 듣기.);
+
+// stream 이랑 pipe 존나 어려움.
+
